@@ -1,8 +1,9 @@
-import "./App.css";
+import Login from "./pages/login/Login";
+
 function App() {
   return (
-    <div>
-      <h1>Hello Chat App</h1>
+    <div className="p-4 h-screen flex items-center justify-center">
+      <Login />
     </div>
   );
 }
